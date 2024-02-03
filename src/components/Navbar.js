@@ -15,7 +15,6 @@ const Header = () => {
             margin: 0,
         }}
       >
-      {/* Title */}
       <Typography variant="h4" component="h1" sx={{ fontWeight: "bold", marginBottom: 1 }}>
         <a href={"#"} style={{ textDecoration: "none", color: "inherit" }}> 
           <HomeIcon color="primary" />
@@ -23,7 +22,6 @@ const Header = () => {
         </a>
       </Typography>
 
-      {/* Navigation */}
       <Typography variant="body1" component="div" sx={{ display: "flex", justifyContent: "center" }}>
         <a href={"#poster"} style={{ textDecoration: "none", color: "inherit", marginRight: 10 }}>Poster</a>
         <a href={"#demo"} style={{ textDecoration: "none", color: "inherit", marginRight: 10 }}>Demo</a>
