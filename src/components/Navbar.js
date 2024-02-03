@@ -12,12 +12,14 @@ const Header = () => {
             flexDirection: "column",
             alignItems: "center",
             padding: 1.5,
-            margin: 0,
+            marginBottom: "20px",
+            backgroundColor: "#2196f3", 
+            color: "#ffffff", 
         }}
       >
       <Typography variant="h4" component="h1" sx={{ fontWeight: "bold", marginBottom: 1 }}>
         <a href={"#"} style={{ textDecoration: "none", color: "inherit" }}> 
-          <HomeIcon color="primary" />
+          <HomeIcon color="inherit" /> 
           Voice MFA
         </a>
       </Typography>
